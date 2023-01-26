@@ -3,7 +3,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string username = "User";
+        
+        Console.WriteLine($"enter your name");
+        username = Console.ReadLine();
+        Console.WriteLine($"Hello, {username}!");
         Console.ReadKey(true);
     }
 }
